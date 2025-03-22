@@ -1,0 +1,120 @@
+/* Apply Comic Neue font to the entire page */
+body {
+    font-family: 'Comic Neue', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #AAB6C2;  /* Blue-gray background color */
+    color: #333;  /* Dark text for good contrast */
+}
+
+/* Header Styles */
+header {
+    background-color: #1d2d50;  /* Dark blue header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Search Bar Styling */
+#searchBar {
+    padding: 10px;
+    margin-top: 10px;
+    width: 60%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* Main container for rooms */
+#rooms-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+/* Room box styling */
+.room {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 280px;
+    text-align: center;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.room:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.room img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Text styles within room boxes */
+.room h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.room p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Rating and user count styling */
+.rating {
+    font-size: 16px;
+    color: #f1c40f; /* Yellow for rating */
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.user-count {
+    font-size: 14px;
+    color: #2ecc71; /* Green for live user count */
+    font-weight: bold;
+}
+
+/* Play button styling */
+.play-button {
+    background-color: #3498db; /* Blue */
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.play-button:hover {
+    background-color: #2980b9; /* Darker blue */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #1d2d50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}

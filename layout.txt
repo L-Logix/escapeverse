@@ -1,0 +1,12 @@
+/escape-room-website
+│── index.html
+│── styles.css
+│── script.js
+│── data.json (escape rooms & reviews)
+│── assets/
+│   ├── logo.svg
+│   ├── images/
+│       ├── asylum.jpg
+│       ├── cyber.jpg
+│       ├── mansion.jpg
+│── animations.js (GSAP animations)

@@ -1,0 +1,44 @@
+{
+    "rooms": [
+        {
+            "name": "The Forgotten Asylum",
+            "description": "Can you escape before the spirits take over? Face your fears in this haunted asylum!",
+            "image": "https://images.unsplash.com/photo-1516220352195-bbbf5cd4c908",
+            "time": "60 min",
+            "genre": "Horror",
+            "difficulty": "Hard"
+        },
+        {
+            "name": "Cyber Heist 2077",
+            "description": "Hack, decrypt, and steal the digital fortune before time runs out in this escape!",
+            "image": "https://images.unsplash.com/photo-1556740753-d1e0b2b9e2f1",
+            "time": "75 min",
+            "genre": "Sci-Fi",
+            "difficulty": "Medium"
+        },
+        {
+            "name": "Mystery at Ravenwood Manor",
+            "description": "A classic whodunit with a supernatural twist! Unravel the mystery before it’s too late.",
+            "image": "https://images.unsplash.com/photo-1554327308-cf84f7ab941f",
+            "time": "90 min",
+            "genre": "Mystery",
+            "difficulty": "Expert"
+        }
+    ],
+    "reviews": [
+        {
+            "name": "Alex R.",
+            "room": "The Forgotten Asylum",
+            "text": "Absolutely mind-blowing! The puzzles were so creative and creepy!",
+            "rating": 5,
+            "avatar": "https://randomuser.me/api/portraits/men/1.jpg"
+        },
+        {
+            "name": "Jamie L.",
+            "room": "Cyber Heist 2077",
+            "text": "Felt like I was in a real spy movie! So immersive and challenging!",
+            "rating": 5,
+            "avatar": "https://randomuser.me/api/portraits/women/2.jpg"
+        }
+    ]
+}
